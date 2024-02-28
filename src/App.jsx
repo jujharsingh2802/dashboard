@@ -3,7 +3,7 @@ import { CssBaseline } from '@mui/material'
 import Topbar from './scenes/global/Topbar'
 import { useState,useEffect } from 'react'
 import { Route, Routes } from 'react-router-dom'
-import {Dashboard,Team,Contacts,Donations,Form,Bar,Line,Pie,FAQ,Geography,Calendar} from './scenes/index'
+import {Dashboard,Team,Contacts,Donations,Form,Pie,FAQ,Calendar} from './scenes/index'
 import Sidebar from './scenes/global/Sidebar'
 
 function App() {
@@ -36,11 +36,8 @@ function App() {
           <Route path='/contacts' element={<Contacts/>}/>
           <Route path='/donations' element={<Donations/>}/>
           <Route path='/form' element={<Form/>}/>
-          <Route path='/bar' element={<Bar/>}/>
-          <Route path='/line' element={<Line/>}/>
           <Route path='/pie' element={<Pie/>}/>
           <Route path='/faq' element={<FAQ/>}/>
-          <Route path='/geography' element={<Geography/>}/>
           <Route path='/calendar' element={<Calendar/>}/>
 
         </Routes>

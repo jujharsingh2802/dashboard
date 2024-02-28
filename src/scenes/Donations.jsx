@@ -1,7 +1,7 @@
 import React from "react";
 import { Box, Typography } from "@mui/material";
 import { DataGrid,GridToolbar } from "@mui/x-data-grid";
-import { MockDataDonations } from "../Data/MockData.jsx";
+import { MockDataDonations } from "../Data/MockData";
 import Header from "../components/Header";
 
 function Donations() {
