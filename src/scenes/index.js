@@ -4,7 +4,7 @@ import Contacts from './Contacts'
 import Donations from './Donations'
 import Form from './Form'
 import Pie from './Pie'
-import FAQ from './Faq'
+import FAQ from './FAQ'
 import Calendar from './Calendar'
 
 export{
