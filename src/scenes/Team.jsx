@@ -71,7 +71,7 @@ function Team() {
             className="my-0 mx-auto w-3/5 p-1 flex rounded-md justify-center"
             backgroundColor="rgb(239,68,68)"
           >
-            <div className="flex hover:bg-red-400 px-7 rounded-lg hover:font-semibold">
+            <div className="flex hover:bg-red-400 px-4 rounded-lg hover:font-semibold">
             <DeleteOutlineIcon />
 
             <Typography className="text-[#e0e0e0] ml-1"><button className="pl-2">{deleted}</button></Typography>
