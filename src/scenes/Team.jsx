@@ -63,7 +63,7 @@ function Team() {
     },
     {
       field: "deleted",
-      headerName: "Delete permanently",
+      headerName: "Delete/ban permanently",
       flex: 1,
       renderCell: ({ row: { deleted } }) => {
         return (
