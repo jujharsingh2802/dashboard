@@ -41,7 +41,7 @@ function Sidebar() {
   }
   useEffect(() => {
     setSett();
-    console.log(setter)
+    // console.log(setter)
   }, [isCollapsed,setIsCollapsed]); 
 
   
