@@ -1,5 +1,5 @@
 import { Box, Button, IconButton, Typography, useTheme } from "@mui/material";
-import { MockTransactions } from "../../data/mockData";
+import { MockTransactions } from "../../Data/MockData";
 import DownloadOutlinedIcon from "@mui/icons-material/DownloadOutlined";
 import EmailIcon from "@mui/icons-material/Email";
 import PointOfSaleIcon from "@mui/icons-material/PointOfSale";
