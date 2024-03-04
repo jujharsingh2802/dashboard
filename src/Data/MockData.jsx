@@ -444,7 +444,6 @@ export const MockDataDonations = [
   },
 ];
 
-
 export const MockTransactions = [
   {
     txId: "01e4dsa",
@@ -512,4 +511,66 @@ export const MockTransactions = [
   }
 ];
 
+export const MockPostData = [
+  {
+      featuredImage: "https://images.unsplash.com/photo-1628102491629-778571d893a3?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      id: 1,
+      title: "Groceries",
+      contributor: "Alice"
+  },
+  {
+      featuredImage: "https://plus.unsplash.com/premium_photo-1677013622212-2cd4260dee5c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      id: 2,
+      title: "Books",
+      contributor: "Bob"
+  },
+  {
+      featuredImage: "https://plus.unsplash.com/premium_photo-1682435561654-20d84cef00eb?q=80&w=1918&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      id: 3,
+      title: "Shoes",
+      contributor: "Charlie"
+  },
+  {
+      featuredImage: "https://images.unsplash.com/photo-1562157873-818bc0726f68?q=80&w=1854&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      id: 4,
+      title: "Sweater",
+      contributor: "David"
+  },
+  {
+      featuredImage: "https://images.unsplash.com/photo-1600369672770-985fd30004eb?q=80&w=2017&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      id: 5,
+      title: "Blanket",
+      contributor: "Eve"
+  },
+  {
+    featuredImage: "https://images.unsplash.com/photo-1628102491629-778571d893a3?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    id: 21,
+    title: "Groceries",
+    contributor: "Alice"
+},
+{
+    featuredImage: "https://plus.unsplash.com/premium_photo-1677013622212-2cd4260dee5c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    id: 211,
+    title: "Books",
+    contributor: "Bob"
+},
+{
+    featuredImage: "https://plus.unsplash.com/premium_photo-1682435561654-20d84cef00eb?q=80&w=1918&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    id: 312,
+    title: "Shoes",
+    contributor: "Charlie"
+},
+{
+    featuredImage: "https://images.unsplash.com/photo-1562157873-818bc0726f68?q=80&w=1854&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    id: 412,
+    title: "Sweater",
+    contributor: "David"
+},
+{
+    featuredImage: "https://images.unsplash.com/photo-1600369672770-985fd30004eb?q=80&w=2017&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    id: 531,
+    title: "Blanket",
+    contributor: "Eve"
+}
+];
 

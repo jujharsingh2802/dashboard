@@ -6,7 +6,7 @@ import Form from './Form'
 import Pie from './Pie'
 import FAQ from './FAQ'
 import Calendar from './Calendar'
-
+import AllPosts from './PostPage'
 export{
     Dashboard,
     Team,
@@ -15,5 +15,6 @@ export{
     Form,
     Pie,
     FAQ,
-    Calendar
+    Calendar,
+    AllPosts
 }
