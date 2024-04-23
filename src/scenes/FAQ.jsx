@@ -6,7 +6,7 @@ import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import Typography from "@mui/material/Typography";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-import useTheme from "../Theme";
+import useTheme from "../Theme.jsx";
 
 function FAQ() {
   const { themeMode } = useTheme();

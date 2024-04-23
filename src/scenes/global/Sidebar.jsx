@@ -3,7 +3,7 @@ import { ProSidebar, Menu, MenuItem } from "react-pro-sidebar";
 import "react-pro-sidebar/dist/css/styles.css";
 import { Box, IconButton, Typography } from "@mui/material";
 import { Link } from "react-router-dom";
-import useTheme from "../../Theme";
+import useTheme from "../../Theme.jsx";
 import HomeOutlinedIcon from "@mui/icons-material/HomeOutlined";
 import PeopleOutlinedIcon from "@mui/icons-material/PeopleOutlined";
 import ContactsOutlinedIcon from "@mui/icons-material/ContactsOutlined";

@@ -1,13 +1,13 @@
 import { Box, Button, IconButton, Typography } from "@mui/material";
-import { MockTransactions } from "../../Data/MockData";
+import { MockTransactions } from "../../Data/MockData.jsx";
 import DownloadOutlinedIcon from "@mui/icons-material/DownloadOutlined";
 import EmailIcon from "@mui/icons-material/Email";
 import PointOfSaleIcon from "@mui/icons-material/PointOfSale";
 import PersonAddIcon from "@mui/icons-material/PersonAdd";
 import TrafficIcon from "@mui/icons-material/Traffic";
-import Header from "../../components/Header";
-import StatBox from "../../components/StatBox";
-import ProgressCircle from "../../components/ProgressCircle";
+import Header from "../../components/Header.jsx";
+import StatBox from "../../components/StatBox.jsx";
+import ProgressCircle from "../../components/ProgressCircle.jsx";
 
 function Dashboard() {
   return (

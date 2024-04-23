@@ -2,7 +2,7 @@ import React from "react";
 import { DataGrid, GridToolbar } from "@mui/x-data-grid";
 import { MockDataTeam } from "../Data/MockData";
 import { Typography, Box } from "@mui/material";
-import Header from "../components/Header";
+import Header from "../components/Header.jsx";
 import AdminPanelSettingsOutlinedIcon from "@mui/icons-material/AdminPanelSettingsOutlined";
 import LockOpenOutlinedIcon from "@mui/icons-material/LockOpenOutlined";
 import SecurityOutlinedIcon from "@mui/icons-material/SecurityOutlined";

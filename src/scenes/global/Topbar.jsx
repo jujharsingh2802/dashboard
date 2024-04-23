@@ -1,6 +1,6 @@
 import { IconButton, InputBase } from '@mui/material';
 import React from 'react';
-import useTheme from '../../Theme';
+import useTheme from '../../Theme.jsx';
 import LightModeOutlinedIcon from '@mui/icons-material/LightModeOutlined';
 import DarkModeOutlinedIcon from '@mui/icons-material/DarkModeOutlined';
 import NotificationsOutlinedIcon from '@mui/icons-material/NotificationsOutlined';

@@ -7,7 +7,7 @@ import Header from "../components/Header";
 import { useState } from "react";
 import FullCalendar from "@fullcalendar/react";
 import dayGridPlugin from "@fullcalendar/daygrid";
-import useTheme from '../Theme';
+import useTheme from '../Theme.jsx';
 
 function Calendar() {
     const {themeMode} = useTheme();

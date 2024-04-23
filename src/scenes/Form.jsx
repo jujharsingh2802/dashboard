@@ -3,7 +3,7 @@ import { Box, Button, TextField } from "@mui/material";
 import { useForm } from "react-hook-form";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import Header from "../components/Header";
-import useTheme from "../Theme";
+import useTheme from "../Theme.jsx";
 
 function Form() {
   const {themeMode} = useTheme()

@@ -2,9 +2,9 @@ import React, { useState } from "react";
 import { Box, Button, TextField } from "@mui/material";
 import { useForm } from "react-hook-form";
 import useMediaQuery from "@mui/material/useMediaQuery";
-import Header from "../components/Header";
-import useTheme from "../Theme";
-import { MockDataContacts } from "../Data/MockData";
+import Header from "../components/Header.jsx";
+import useTheme from "../Theme.jsx";
+import { MockDataContacts } from "../Data/MockData.jsx";
 
 function Form() {
   const { themeMode } = useTheme();

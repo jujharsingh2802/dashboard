@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import { MockPostData } from "../Data/MockData";
-import PostBox from "../components/PostBox";
+import { MockPostData } from "../Data/MockData.jsx";
+import PostBox from "../components/PostBox.jsx";
 function AllPosts() {
   const [posts, setPosts] = useState([]);
   useEffect(() => {

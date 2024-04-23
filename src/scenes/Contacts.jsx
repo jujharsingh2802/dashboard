@@ -1,8 +1,8 @@
 import React from "react";
 import { Box, Typography } from "@mui/material";
 import { DataGrid, GridToolbar } from "@mui/x-data-grid";
-import {MockDataContacts} from "../Data/MockData"
-import Header from '../components/Header'
+import {MockDataContacts} from "../Data/MockData.jsx"
+import Header from '../components/Header.jsx'
 import { useTheme } from "@mui/material";
 
 function Contacts() {

@@ -1,10 +1,10 @@
-import { ColorModeProvider} from './Theme'
+import { ColorModeProvider} from './Theme.jsx'
 import { CssBaseline } from '@mui/material'
-import Topbar from './scenes/global/Topbar'
+import Topbar from './scenes/global/Topbar.jsx'
 import { useState,useEffect } from 'react'
 import { Route, Routes } from 'react-router-dom'
-import {Dashboard,Team,Contacts,Donations,Form,Pie,AllPosts,FAQ,Calendar} from './scenes/index'
-import Sidebar from './scenes/global/Sidebar'
+import {Dashboard,Team,Contacts,Donations,Form,Pie,AllPosts,FAQ,Calendar} from './scenes/index.js'
+import Sidebar from './scenes/global/Sidebar.jsx'
 
 function App() {
   const [themeMode, setThemeMode] = useState("dark")

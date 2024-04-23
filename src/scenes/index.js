@@ -1,12 +1,12 @@
-import Dashboard from './dashboard/Index'
-import Team from './Team'
-import Contacts from './Contacts'
-import Donations from './Donations'
-import Form from './Form'
-import Pie from './Pie'
-import FAQ from './FAQ'
-import Calendar from './Calendar'
-import AllPosts from './PostPage'
+import Dashboard from './dashboard/Index.jsx'
+import Team from './Team.jsx'
+import Contacts from './Contacts.jsx'
+import Donations from './Donations.jsx'
+import Form from './Form.jsx'
+import Pie from './Pie.jsx'
+import FAQ from './FAQ.jsx'
+import Calendar from './Calendar.jsx'
+import AllPosts from './PostPage.jsx'
 export{
     Dashboard,
     Team,
