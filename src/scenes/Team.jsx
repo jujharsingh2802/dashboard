@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import { DataGrid, GridToolbar } from "@mui/x-data-grid";
 import { MockDataTeam } from "../Data/MockData";
 import { Typography, Box } from "@mui/material";
@@ -7,8 +7,16 @@ import AdminPanelSettingsOutlinedIcon from "@mui/icons-material/AdminPanelSettin
 import LockOpenOutlinedIcon from "@mui/icons-material/LockOpenOutlined";
 import SecurityOutlinedIcon from "@mui/icons-material/SecurityOutlined";
 import DeleteOutlineIcon from '@mui/icons-material/DeleteOutline';
+import toast, { Toaster } from 'react-hot-toast';
 
 function Team() {
+  const [teamData, setTeamData] = useState(MockDataTeam);
+  const notify = () => toast('User Deleted successfully!!!');
+
+  const deleteRow = (id) => {
+    const updatedTeamData = teamData.filter(item => item.id !== id);
+    setTeamData(updatedTeamData);
+  }
   const columns = [
     { field: "id", headerName: "ID", },
     {
@@ -16,9 +24,6 @@ function Team() {
       headerName: "Name",
       flex: 1,
       cellClassName: "name-column--cell",
-      // renderCell: (params) => (
-      //   <Typography className="text-[#5bdfbc] text-sm">{params.row.name}</Typography>
-      // ),
     },
     {
       field: "age",
@@ -62,19 +67,23 @@ function Team() {
       },
     },
     {
-      field: "deleted",
-      headerName: "Delete/ban permanently",
+      headerName: "Delete",
       flex: 1,
-      renderCell: ({ row: { deleted } }) => {
+      renderCell: ({ row: { id, deleted } }) => {
+        // console.log(id);
         return (
-          <Box
-            className="my-0 mx-auto w-3/5 p-1 flex rounded-md justify-center"
+          <Box 
+            onClick={() => { deleteRow(id)}}
+            className="my-0 w-4/5  p-1 flex rounded-md justify-center"
             backgroundColor="rgb(239,68,68)"
           >
-            <div className="flex hover:bg-red-400 px-4 rounded-lg hover:font-semibold">
+            <div className="flex px-4 rounded-lg ">
+
+            <Typography className="text-[#e0e0e0] ml-1">
+            <button className="pr-2">Delete </button>
+            </Typography>
             <DeleteOutlineIcon />
 
-            <Typography className="text-[#e0e0e0] ml-1"><button className="pl-2">{deleted}</button></Typography>
             </div>
           </Box>
         );
@@ -133,7 +142,7 @@ function Team() {
       >
         <DataGrid
           checkboxSelection
-          rows={MockDataTeam}
+          rows={teamData}
           columns={columns}
           components={{ Toolbar: GridToolbar }}
           

@@ -7,7 +7,6 @@ export const MockDataTeam = [
     email: "sjujhar532@gmail.com",
     age: 21,
     phone: "+919688860060",
-    deleted: "delete",
     access: "admin",
   },
   {
@@ -16,7 +15,6 @@ export const MockDataTeam = [
     email: "kushalbhandari@gmail.com",
     age: 21,
     phone: "+919876543210",
-    deleted: "delete",
     access: "manager",
   },
   {
@@ -25,7 +23,6 @@ export const MockDataTeam = [
     email: "rajpreetsingh@gmail.com",
     age: 22,
     phone: "+919876543210",
-    deleted: "delete",
     access: "user",
   },
   {
@@ -34,7 +31,6 @@ export const MockDataTeam = [
     email: "anmol@gmail.com",
     age: 19,
     phone: "+919876543210",
-    deleted: "delete",
     access: "admin",
   },
   {
@@ -43,7 +39,6 @@ export const MockDataTeam = [
     email: "amitsharma@gmail.com",
     age: 31,
     phone: "+917612345678",
-    deleted: "delete",
     access: "user",
   },
   {
@@ -52,7 +47,6 @@ export const MockDataTeam = [
     email: "manishapatel@gmail.com",
     age: 25,
     phone: "+918976543210",
-    deleted: "delete",
     access: "manager",
   },
   {
@@ -61,7 +55,6 @@ export const MockDataTeam = [
     email: "arunkumar@gmail.com",
     age: 30,
     phone: "+919876543210",
-    deleted: "delete",
     access: "user",
   },
   {
@@ -70,7 +63,6 @@ export const MockDataTeam = [
     email: "deepaksingh@gmail.com",
     age: 36,
     phone: "+917854321098",
-    deleted: "delete",
     access: "user",
   },
   {
@@ -79,7 +71,6 @@ export const MockDataTeam = [
     email: "sunitadevi@gmail.com",
     age: 28,
     phone: "+919876543210",
-    deleted: "delete",
     access: "admin",
   },
   {
@@ -88,7 +79,6 @@ export const MockDataTeam = [
     email: "rahulverma@gmail.com",
     age: 24,
     phone: "+919876543210",
-    deleted: "delete",
     access: "user",
   },
   {
@@ -97,7 +87,6 @@ export const MockDataTeam = [
     email: "priyasingh@gmail.com",
     age: 29,
     phone: "+919876543210",
-    deleted: "delete",
     access: "manager",
   },
   {
@@ -106,7 +95,6 @@ export const MockDataTeam = [
     email: "nehagupta@gmail.com",
     age: 27,
     phone: "+917854321098",
-    deleted: "delete",
     access: "user",
   },
   {
@@ -115,7 +103,6 @@ export const MockDataTeam = [
     email: "ajaykumar@gmail.com",
     age: 33,
     phone: "+918976543210",
-    deleted: "delete",
     access: "admin",
   },
   {
@@ -124,7 +111,6 @@ export const MockDataTeam = [
     email: "anjalisharma@gmail.com",
     age: 35,
     phone: "+919688860060",
-    deleted: "delete",
     access: "user",
   },
   {
@@ -133,7 +119,6 @@ export const MockDataTeam = [
     email: "sandeepSingh@gmail.com",
     age: 40,
     phone: "+919876543210",
-    deleted: "delete",
     access: "admin",
   },
   {
@@ -142,7 +127,6 @@ export const MockDataTeam = [
     email: "vikramsingh@gmail.com",
     age: 32,
     phone: "+917612345678",
-    deleted: "delete",
     access: "user",
   },
   {
@@ -151,7 +135,6 @@ export const MockDataTeam = [
     email: "poojapatel@gmail.com",
     age: 22,
     phone: "+918976543210",
-    deleted: "delete",
     access: "manager",
   },
   {
@@ -160,7 +143,6 @@ export const MockDataTeam = [
     email: "sanjaygupta@gmail.com",
     age: 26,
     phone: "+919876543210",
-    deleted: "delete",
     access: "user",
   },
   {
@@ -169,7 +151,6 @@ export const MockDataTeam = [
     email: "ritasharma@gmail.com",
     age: 38,
     phone: "+917854321098",
-    deleted: "delete",
     access: "admin",
   },
   {
@@ -178,7 +159,6 @@ export const MockDataTeam = [
     email: "aakashverma@gmail.com",
     age: 23,
     phone: "+918976543210",
-    deleted: "delete",
     access: "user",
   },
   {
@@ -187,7 +167,6 @@ export const MockDataTeam = [
     email: "sumansingh@gmail.com",
     age: 37,
     phone: "+919688860060",
-    deleted: "delete",
     access: "manager",
   },
   {
@@ -196,7 +175,6 @@ export const MockDataTeam = [
     email: "rakeshkumar@gmail.com",
     age: 34,
     phone: "+919876543210",
-    deleted: "delete",
     access: "user",
   },
   {
@@ -205,7 +183,6 @@ export const MockDataTeam = [
     email: "nishapatel@gmail.com",
     age: 39,
     phone: "+917612345678",
-    deleted: "delete",
     access: "admin",
   },
   {
@@ -214,7 +191,6 @@ export const MockDataTeam = [
     email: "amitadevi@gmail.com",
     age: 20,
     phone: "+918976543210",
-    deleted: "delete",
     access: "user",
   },
   {
@@ -223,7 +199,6 @@ export const MockDataTeam = [
     email: "rajeshsingh@gmail.com",
     age: 43,
     phone: "+919876543210",
-    deleted: "delete",
     access: "manager",
   },
   {
@@ -232,7 +207,6 @@ export const MockDataTeam = [
     email: "shwetagupta@gmail.com",
     age: 28,
     phone: "+917854321098",
-    deleted: "delete",
     access: "user",
   },
 ];
