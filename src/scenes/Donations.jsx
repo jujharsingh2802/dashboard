@@ -6,34 +6,35 @@ import Header from "../components/Header.jsx";
 
 function Donations() {
   const columns = [
-    { field: "id", headerName: "ID" },
+    { field: "_id", headerName: "ID" },
     {
-      field: "name",
+      field: "userName",
       headerName: "Name",
       flex: 1,
       cellClassName: "name-column--cell",
     },
     {
-      field: "phone",
-      headerName: "Phone Number",
+      field: "title",
+      headerName: "Title of Post",
       flex: 1,
     },
     {
-      field: "email",
+      field: "userEmail",
       headerName: "Email",
       flex: 1,
     },
+    
     {
-      field: "donations",
-      headerName: "No. of Donations",
+      field: "desc",
+      headerName: "Description",
       flex: 1,
       renderCell: (params) => (
-        <Typography className="text-[#4cceac] ">{params.row.donations}</Typography>
+        <Typography className="text-[#4cceac] ">{params.row.desc}</Typography>
       ),
     },
     {
-      field: "date",
-      headerName: "Last Donated",
+      field: "category",
+      headerName: "Category",
       flex: 1,
     },
   ];

@@ -12,7 +12,7 @@ function PostBox({ id, title, featuredImage, contributor }) {
       </div>
       <div className="flex justify-between items-center">
         <h2 className="sm:text-xl text-sm font-bold">{title}</h2>
-        <button className="bg-red-500 hover:bg-red-700 z-10 rounded-xl px-2 py-1">
+        <button id="deleter" className="bg-red-500 hover:bg-red-700 z-10 rounded-xl px-2 py-1">
           Delete
         </button>
       </div>
