@@ -1,12 +1,41 @@
 import React from "react";
 import { Box, Typography } from "@mui/material";
 import { DataGrid,GridToolbar } from "@mui/x-data-grid";
-import { MockDataDonations } from "../Data/MockData.jsx";
+import { useState } from "react";
+import { useEffect } from "react";
+import DeleteOutlineIcon from '@mui/icons-material/DeleteOutline';
 import Header from "../components/Header.jsx";
+import toast, { Toaster } from 'react-hot-toast';
+
 
 function Donations() {
+  const notify = () => toast('Post Deleted successfully!!!');
+
+  const [MockDataDonations, setMockDataDonations] = useState([]);
+
+  useEffect(() => {
+    fetch('https://dashboard-server-p8gp.onrender.com/api/').then((res)=>{
+      res.json().then((data)=>{
+        setMockDataDonations(data)
+      })
+    })
+  }, [])
+
+  const addDeletedId = (id)=>{
+    fetch(`https://dashboard-server-p8gp.onrender.com/api/delete/${id}`,{
+      method: 'DELETE',
+    }).then(()=>{
+      fetch('https://dashboard-server-p8gp.onrender.com/api/').then((res)=>{
+      res.json().then((data)=>{
+        setMockDataDonations(data)
+        notify()
+      })
+    })
+    
+    })
+  }
+
   const columns = [
-    { field: "_id", headerName: "ID" },
     {
       field: "userName",
       headerName: "Name",
@@ -37,6 +66,35 @@ function Donations() {
       headerName: "Category",
       flex: 1,
     },
+    {
+      field: "city",
+      headerName: "City",
+      flex: 1,
+    },
+    {
+      headerName: "Delete",
+      flex: 1,
+      renderCell: ({ row: { id, deleted } }) => {
+        // console.log(id);
+        return (
+          <Box 
+            onClick={() => { addDeletedId(id)}}
+            className="my-0 w-4/5  p-1 flex rounded-md justify-center"
+            backgroundColor="rgb(239,68,68)"
+          >
+            <div className="flex px-4 rounded-lg ">
+
+            <Typography className="text-[#e0e0e0] ml-1">
+            <button className="pr-2">Delete </button><Toaster/>
+            </Typography>
+            <DeleteOutlineIcon />
+
+            </div>
+          </Box>
+        );
+      },
+    },
+    
   ];
 
   return (
