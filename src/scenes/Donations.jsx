@@ -94,6 +94,28 @@ function Donations() {
         );
       },
     },
+    {
+      field: "id",
+      headerName: "ID",
+      flex: 1,
+    },
+    {
+      field: "image",
+    headerName: "Image",
+    flex: 1,
+    renderCell: (params) => (
+      <img
+        src={params.value}
+        alt="Image"
+        style={{ width: "100%", cursor: "pointer" }}
+        className="rounded-md h-[48px] "
+        onClick={() => {
+          // Handle click action here
+          console.log("Image clicked");
+        }}
+      />
+    ),
+    }
     
   ];
 
