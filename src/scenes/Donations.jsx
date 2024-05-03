@@ -74,7 +74,7 @@ function Donations() {
     {
       headerName: "Delete",
       flex: 1,
-      renderCell: ({ row: { id, deleted } }) => {
+      renderCell: ({ row: { id } }) => {
         // console.log(id);
         return (
           <Box 
