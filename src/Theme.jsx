@@ -1,5 +1,4 @@
 import { createContext } from "react";
-import { createTheme } from "@mui/material/styles";
 import { useContext } from "react";
 
 // color design tokens export
